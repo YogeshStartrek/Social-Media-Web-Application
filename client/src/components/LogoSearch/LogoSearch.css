@@ -1,0 +1,27 @@
+.LogoSearch{
+    display: flex;
+    gap: 1rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 5px;
+}
+.search>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.s-icon{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(96,43,94);
+background: linear-gradient(90deg, rgba(96,43,94,1) 1%, rgba(133,20,144,1) 47%, rgba(255,0,119,1) 100%);
+    color: white;
+}
